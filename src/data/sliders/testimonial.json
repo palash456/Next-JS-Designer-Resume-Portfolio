@@ -1,0 +1,33 @@
+{
+    "title": "Recommendations",
+    "items": [
+        {
+            "name": "Paul Trueman",
+            "image": "/img/testimonials/face-1.jpg",
+            "role": "Template author",
+            "text": "Working with Artur has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Artur! This is easily a 5 star freelancer.",
+            "rating": 5
+        },
+        {
+            "name": "Emma Miller",
+            "image": "/img/testimonials/face-2.jpg",
+            "role": "SMM Manager",
+            "text": "Working with Artur has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Artur! This is easily a 5 star freelancer.",
+            "rating": 5
+        },
+        {
+            "name": "Trevor Virtue",
+            "image": "/img/testimonials/face-3.jpg",
+            "role": "Designer",
+            "text": "Working with Artur has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Artur! This is easily a 5 star freelancer.",
+            "rating": 5
+        },
+        {
+            "name": "Paul Trueman",
+            "image": "/img/testimonials/face-4.jpg",
+            "role": "Template author",
+            "text": "Working with Artur has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Artur! This is easily a 5 star freelancer.",
+            "rating": 5
+        }
+    ]
+}

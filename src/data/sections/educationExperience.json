@@ -1,0 +1,82 @@
+{
+    "col1": {
+        "title": "Education",
+        "items": [
+            {
+                "title": "St. Joseph College of Communication, Mahatma Gandhi University",
+                "subtitle": "B.A. in Animation and VFX",
+                "date": "2015 - 2018",
+                "text": "",
+                "button": {
+                    "label": "More info",
+                    "link": "/education"
+                }
+            },
+            {
+                "title": "St. Thomas Sr. Sec. School",
+                "subtitle": "Commerce and IP",
+                "date": "2014 - 2015",
+                "text": "",
+                "button": {
+                    "label": "More info",
+                    "link": "/education"
+                }
+            },
+            {
+                "title": "Children Garden Play School",
+                "subtitle": "",
+                "date": "2012 - 2013",
+                "text": "Details of Schooling",
+                "button": {
+                    "label": "More info",
+                    "link": "/education"
+                }
+            }
+        ]
+    },
+    "col2": {
+        "title": "Work Experience (4 Years)",
+        "items": [
+            {
+                "title": "Flipshope",
+                "subtitle": "Motion Graphic Designer and Video Editor",
+                "date": "Jan 2024 - Present",
+                "text": "I create engaging motion graphics and edit videos to enhance marketing and product communication strategies.\n- Designed promotional videos that increased user engagement by 25%.\n- Collaborated with the product team to produce animation for app tutorials.",
+                "button": {
+                    "label": "View Portfolio",
+                    "link": "/portfolio"
+                }
+            },
+            {
+                "title": "Freelancer in Fiverr",
+                "subtitle": "Animator & Graphic Designer (Level 2 seller)",
+                "date": "2021 - Today",
+                "text": "I design custom animations and graphics for clients globally, meeting unique creative needs and delivering top-notch visuals.\n- Created over 100 projects for clients worldwide with a 5-star rating.\n- Developed branding assets for startups that led to successful funding rounds.",
+                "button": {
+                    "label": "View Portfolio",
+                    "link": "/portfolio"
+                }
+            },
+            {
+                "title": "Miss Audio Video",
+                "subtitle": "Animator & Graphic Designer",
+                "date": "2019 - 2021",
+                "text": "I produced animations and visual designs, collaborating with clients to craft compelling audiovisual content.\n- Directed animations for corporate training modules used by Fortune 500 companies.\n- Designed explainer videos that boosted client conversion rates by 30%.",
+                "button": {
+                    "label": "View Portfolio",
+                    "link": "/portfolio"
+                }
+            },
+            {
+                "title": "Talent Throne",
+                "subtitle": "Freelancer as Graphic Designer",
+                "date": "6 Months",
+                "text": "I provided freelance graphic design services, creating impactful visuals to elevate branding and communication efforts.\n- Conceptualized and designed marketing materials for a successful product launch.\n- Produced logos and brand guidelines for emerging businesses.",
+                "button": {
+                    "label": "View Portfolio",
+                    "link": "/portfolio"
+                }
+            }
+        ]
+    }
+}

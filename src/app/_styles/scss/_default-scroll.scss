@@ -1,0 +1,187 @@
+.default--scrolling .art-scroll-frame {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0)
+}
+
+.default--scrolling #scrollbar2 {
+    padding: 240px 0 50px
+}
+
+.default--scrolling .art-sidebar #scrollbar2 {
+    padding: 125px 0 30px
+}
+
+
+body.default--scrolling {
+    background: #191923
+}
+
+.default--scrolling .art-preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto!important;
+    height: auto!important
+}
+
+.default--scrolling .art-app {
+    width: auto;
+    height: auto;
+    overflow: visible
+}
+
+.default--scrolling .art-app:before,.default--scrolling .art-app:after {
+    content: '';
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 15px;
+    background: #191923;
+    z-index: 9999
+}
+
+.default--scrolling .art-app:after {
+    top: auto;
+    bottom: 0
+}
+
+.default--scrolling.admin-bar .art-app:before {
+    top: 32px
+}
+
+.default--scrolling.admin-bar .art-preloader {
+    top: 32px
+}
+
+.default--scrolling .art-app .art-app-wrapper {
+    height: auto;
+    overflow: visible;
+    overflow-x: hidden
+}
+
+.default--scrolling .art-app .art-app-wrapper .art-app-container .art-content,.default--scrolling.admin-bar .art-app .art-app-wrapper .art-app-container .art-content {
+    height: auto
+}
+
+.default--scrolling .art-content .art-scroll-frame,.default--scrolling.admin-bar .art-content .art-scroll-frame {
+    height: auto;
+    overflow: visible
+}
+
+.default--scrolling .art-app .art-app-wrapper .art-app-container .art-info-bar {
+    position: fixed
+}
+
+.default--scrolling .art-app .art-app-wrapper .art-app-container .art-menu-bar-fix {
+    position: absolute;
+    right: 0;
+    width: 80px;
+    height: calc(100vh - 30px)
+}
+
+.default--scrolling.admin-bar .art-app .art-app-wrapper .art-app-container .art-menu-bar-fix {
+    height: calc(100vh - 62px)
+}
+
+.default--scrolling .art-app .art-app-wrapper .art-app-container .art-menu-bar {
+    position: fixed;
+    top: auto;
+    bottom: auto;
+    right: auto;
+    width: 80px
+}
+
+.default--scrolling .art-app .art-app-wrapper .art-app-container:before {
+    content: '';
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 15px;
+    height: 100%;
+    z-index: 9999;
+    background: #191923
+}
+
+.default--scrolling .art-app .art-app-wrapper .art-app-container .art-content {
+    padding-left: 290px
+}
+
+.default--scrolling .art-app .art-app-wrapper .art-app-container .art-menu-bar.art-active {
+    width: 230px
+}
+
+@media (max-width: 1032px) {
+    .default--scrolling .art-app .art-app-wrapper .art-app-container .art-menu-bar-fix {
+        right:-80px
+    }
+
+    .default--scrolling .art-app .art-app-wrapper .art-app-container:before,.default--scrolling .art-app:before,.default--scrolling .art-app:after {
+        display: none
+    }
+
+    .default--scrolling .art-app .art-app-wrapper .art-app-container .art-content {
+        padding-left: 0;
+        width: auto
+    }
+
+    .default--scrolling .art-app .art-app-wrapper {
+        height: auto
+    }
+
+    .default--scrolling.admin-bar .art-app .art-app-wrapper {
+        height: auto
+    }
+
+    .default--scrolling .art-app .art-app-wrapper .art-app-container .art-content .art-scroll-frame {
+        height: auto
+    }
+
+    .default--scrolling.admin-bar .art-app .art-app-wrapper .art-app-container .art-content .art-scroll-frame {
+        height: auto
+    }
+
+    body.default--scrolling {
+        overflow: visible
+    }
+
+    .default--scrolling .art-app .art-app-wrapper .art-app-container .art-menu-bar {
+        height: 100vh!important
+    }
+
+    .default--scrolling .art-app .art-app-wrapper .art-app-container .art-info-bar {
+        height: 100vh!important
+    }
+
+    .default--scrolling.fixed .art-app .art-app-wrapper .art-app-container .art-info-bar {
+        top: 0
+    }
+
+    .default--scrolling.fixed .art-app .art-mobile-top-bar {
+        top: 0
+    }
+
+    .default--scrolling.fixed .art-app .art-app-wrapper .art-app-container .art-menu-bar {
+        top: 0
+    }
+}
+
+.default--scrolling .art-content .art-scroll-frame,.default--scrolling.admin-bar .art-content .art-scroll-frame {
+    transform: none!important;
+    -webkit-transform: none!important
+}
+
+@media (max-width: 1032px) {
+    .default--scrolling .footer {
+        margin-bottom: 20px
+    }
+}
+
+body .art-content.art-active {
+    overflow: hidden !important;
+    height: 100vh !important;
+}

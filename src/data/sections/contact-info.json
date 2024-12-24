@@ -1,0 +1,53 @@
+{
+    "title": "Contact information",
+    "items": [
+        {
+            "info": [
+                {
+                    "label": "Country",
+                    "value": "Canada"
+                },
+                {
+                    "label": "City",
+                    "value": "Toronto"
+                },
+                {
+                    "label": "Streat",
+                    "value": "20 Dellbank Rd"
+                }
+            ]
+        },
+        {
+            "info": [
+                {
+                    "label": "Email",
+                    "value": "carter.inbox@mail.com"
+                },
+                {
+                    "label": "Telegram",
+                    "value": "@arter"
+                },
+                {
+                    "label": "Skype",
+                    "value": "Arter"
+                }
+            ]
+        },
+        {
+            "info": [
+                {
+                    "label": "Support service",
+                    "value": "+12 (098) 333 11 22"
+                },
+                {
+                    "label": "Office",
+                    "value": "+12 (098) 326 11 22"
+                },
+                {
+                    "label": "Personal",
+                    "value": "+12 (077) 114 26 53"
+                }
+            ]
+        }
+    ]
+}

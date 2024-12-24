@@ -1,0 +1,47 @@
+{
+    "videos": [
+      {
+        "id": 1,
+        "title": "Introduction to React",
+        "videoId": "https://www.youtube.com/watch?v=gs8qfL9PNac",
+        "category_slug": "react"
+      },
+      {
+        "id": 2,
+        "title": "Mastering CSS Grid",
+        "videoId": "https://www.youtube.com/watch?v=gs8qfL9PNac",
+        "category_slug": "css"
+      },
+      {
+        "id": 3,
+        "title": "JavaScript Basics",
+        "videoId": "https://www.youtube.com/watch?v=gs8qfL9PNac",
+        "category_slug": "javascript"
+      },
+      {
+        "id": 4,
+        "title": "Advanced Next.js",
+        "videoId": "https://www.youtube.com/watch?v=gs8qfL9PNac",
+        "category_slug": "nextjs"
+      }
+    ],
+    "categories": [
+      {
+        "name": "React",
+        "slug": "react"
+      },
+      {
+        "name": "CSS",
+        "slug": "css"
+      },
+      {
+        "name": "JavaScript",
+        "slug": "javascript"
+      },
+      {
+        "name": "Next.js",
+        "slug": "nextjs"
+      }
+    ]
+  }
+  

@@ -1,0 +1,21 @@
+{
+    "bg_image": "https://img.freepik.com/free-vector/interior-living-room-with-tv-night_107791-2382.jpg",
+    "title": "Discover my Amazing <br/>Portfolio!",
+    "subtitle": {
+        "start": "I do ",
+        "rotates": [
+            "Illustration", 
+            "Video Editing",           
+            "Graphic Designing"
+        ],
+        "end": ""
+    },
+    "button": {
+        "link": "https://drive.google.com/file/d/1oYhnKNCUyayJpTBK1Ou8MgRtzwXppy3M/view",
+        "label": "Download CV"
+    },
+    "photo": {
+        "url": "img/face-2.png",
+        "alt": "Artur Carter"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "title": "What I Do",
+    "items": [
+        {
+            "title": "Graphic Design",
+            "text": "Creating visually stunning designs tailored to your brand’s identity, including logos, brochures, banners, and more.",
+            "button": {
+                "link": "/contact",
+                "label": "See Work"
+            }
+        },
+        {
+            "title": "Motion Graphics",
+            "text": "Designing captivating animations and motion graphics to bring your ideas to life with creative flair and engaging visuals.",
+            "button": {
+                "link": "/contact",
+                "label": "See Work"
+            }
+        },
+        {
+            "title": "Video Editing",
+            "text": "Delivering professional video editing services for commercials, YouTube videos and social media content.",
+            "button": {
+                "link": "/contact",
+                "label": "See Work"
+            }
+        }
+    ]
+}

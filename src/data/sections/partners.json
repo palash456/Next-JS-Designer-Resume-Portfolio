@@ -1,0 +1,20 @@
+{
+    "items": [
+        {
+            "image": "/img/partners/flipshope.png",
+            "alt": "logo"
+        },
+        {
+            "image": "/img/partners/hyyzo.png",
+            "alt": "logo"
+        },
+        {
+            "image": "/img/partners/zonet.png",
+            "alt": "logo"
+        },
+        {
+            "image": "/img/partners/music.png",
+            "alt": "logo"
+        }
+    ]
+}

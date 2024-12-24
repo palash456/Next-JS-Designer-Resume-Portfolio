@@ -1,0 +1,24 @@
+{
+    "items": [
+        {
+            "label": "Work Experience",
+            "value": "3",
+            "valueAfter": ""
+        },
+        {
+            "label": "Freelance Experience",
+            "value": "5",
+            "valueAfter": "+"
+        },
+        {
+            "label": "Projects Completed",
+            "value": "100",
+            "valueAfter": "+"
+        },
+        {
+            "label": "Client Rating",
+            "value": "4.7",
+            "valueAfter": "+"
+        }
+    ]
+}

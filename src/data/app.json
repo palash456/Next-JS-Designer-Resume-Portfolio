@@ -1,0 +1,189 @@
+{
+    "settings": {
+        "siteName": "Akamsh Portfolio",
+        "siteDescription": "Akamsh Mohan CV and Portfolio",
+        "formspreeURL": "https://formspree.io/f/your_api_key",
+        "mailchimp": {
+            "url": "",
+            "key": ""
+        },
+        "perPage": 6
+    },
+    "profile": {
+        "avatar": "/img/face-1.jpg",
+        "name": "Akamsh Mohan",
+        "role": "Motion Graphics Designer <br/> Video Editor",
+        "info": [
+            {
+                "label": "Age",
+                "value": "27"
+            },
+            {
+                "label": "Phone",
+                "value": "7907159007"
+            },
+            {
+                "label": "Email",
+                "value": "akamshm@gmail.com"
+            }
+        ],
+        "skills": {
+            "language": [
+                {
+                    "label": "Video",
+                    "value": "0.8"
+                },
+                {
+                    "label": "Motion",
+                    "value": "1.0"
+                },
+                {
+                    "label": "Graphics",
+                    "value": "0.7"
+                }
+            ],
+            "hard": [
+                {
+                    "label": "Photoshop",
+                    "value": ".70"
+                },
+                {
+                    "label": "Illustrator",
+                    "value": "0.70"
+                },
+                {
+                    "label": "After Effect",
+                    "value": "0.85"
+                },
+                {
+                    "label": "Blender",
+                    "value": "0.30"
+                },
+                {
+                    "label": "Premier Pro",
+                    "value": "0.50"
+                },
+                {
+                    "label": "Pro Create",
+                    "value": "0.75"
+                }
+
+
+            ],
+            "knowledge": [
+                {
+                    "label": "Communication"
+                },
+                {
+                    "label": "Time Management"
+                },
+                {
+                    "label": "Attention to Detail"
+                },
+                {
+                    "label": "Problem-Solving"
+                }
+                
+            ]
+        },
+        "resume": "https://drive.google.com/file/d/1oYhnKNCUyayJpTBK1Ou8MgRtzwXppy3M/view"
+    },
+    "header": {
+        "topBackground": "https://img.freepik.com/free-vector/night-rice-field-terraces-asian-mountains-landscape-with-paddy-plantation-cascades-chinese-agricultural-farm-dark-starry-sky-with-full-moon-glowing-fireflies-cartoon-vector-illustration_107791-10584.jpg",
+        "menu": [
+            {
+                "label": "",
+                "link": "",
+                "children": 0
+            },
+            {
+                "label": "",
+                "link": "",
+                "children": 0
+            },
+            {
+                "label": "",
+                "link": "",
+                "children": 0
+            },
+            {
+                "label": "",
+                "link": "",
+                "children": 0
+            },
+            {
+                "label": "",
+                "link": "",
+                "children": 0
+            },
+            {
+                "label": "Portfolio",
+                "link": "/",
+                "children": 0
+            },
+            {
+                "label": "Experience",
+                "link": "/ll",
+                "children": 0
+            },
+            {
+                "label": "Education",
+                "link": "/ll",
+                "children": 0
+            },
+            {
+                "label": "Contact",
+                "link": "/ll",
+                "children": 0
+            }
+
+        ]
+    },
+    "footer": {
+        "copy": "© 2024 Arter. All rights reserved.",
+        "developer": "Developed by:&#160; <a href='https://themeforest.net/user/bslthemes' target='_blank'>bslthemes</a>"
+    },
+    "social": [
+        {
+            "link": "https://linkedin.com",
+            "icon": "fab fa-linkedin-in",
+            "title": "Linkedin"
+        },
+        {
+            "link": "https://dribbble.com",
+            "icon": "fab fa-dribbble",
+            "title": "Dribbble"
+        },
+        {
+            "link": "https://behance.com",
+            "icon": "fab fa-behance",
+            "title": "Behance"
+        },
+        {
+            "link": "https://github.com",
+            "icon": "fab fa-github",
+            "title": "Github"
+        },
+        {
+            "link": "https://twitter.com",
+            "icon": "fab fa-twitter",
+            "title": "Twitter"
+        }
+    ],
+    "projects": {
+        "categories": [
+            {
+                "name": "Video Editing",
+                "slug": "video-editing"
+            },
+            {
+                "name": "Motion Design",
+                "slug": "motion-design"
+            },
+            {
+                "name": "Graphic Design",
+                "slug": "graphic-design"
+            }
+        ]
+    }
+}

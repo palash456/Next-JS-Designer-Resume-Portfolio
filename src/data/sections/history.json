@@ -1,0 +1,85 @@
+{
+    "col1": {
+        "title": "Education",
+        "items": [
+            {
+                "title": "University of Toronto",
+                "subtitle": "Student",
+                "date": "jan 2018 - may 2020",
+                "text": "Bachelor's Degree in Computer Science ABC Technical Institute, Jefferson, Missouri",
+                "button": {
+                    "link": "/files/certificate.jpg",
+                    "type": "image",
+                    "label": "Diplome"
+                }
+            },
+            {
+                "title": "Programming Course",
+                "subtitle": "Student",
+                "date": "jan 2016- apr 2017",
+                "text": "Coursework - Git, WordPress, Javascript, iOS, Android."
+            },
+            {
+                "title": "Web developer courses",
+                "subtitle": "Student",
+                "date": "aug 2014 - oct 2015",
+                "text": "Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript",
+                "button": {
+                    "link": "/files/certificate.jpg",
+                    "type": "image",
+                    "label": "License"
+                }
+            },
+            {
+                "title": "Academy of Art University",
+                "subtitle": "Student",
+                "date": "jan 2018 - may 2020",
+                "text": "Ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.",
+                "button": {
+                    "link": "/files/certificate.jpg",
+                    "type": "image",
+                    "label": "Certificate"
+                }
+            }
+        ]
+    },
+    "col2": {
+        "title": "Work History",
+        "items": [
+            {
+                "title": "Envato",
+                "subtitle": "Template Author",
+                "date": "jan 2018 - may 2020",
+                "text": "Created Professional WordPress Themes & Templates for Personal and Creative Websites."
+            },
+            {
+                "title": "ABC Studio",
+                "subtitle": "Front-End Developer",
+                "date": "apr 2018 - aug 2019",
+                "text": "Collaborate with creative and development teams on the execution of ideas.",
+                "button": {
+                    "type": "modal",
+                    "link": "#recommentation1",
+                    "label": "Recommendation"
+                }
+            },
+            {
+                "title": "Digital Web Studio",
+                "subtitle": "Senior Developer",
+                "date": "jan 2017 - may 2018",
+                "text": "Optimize your website and apps performance using latest technology.",
+                "button": {
+                    "type": "link",
+                    "link": "https://linkedin.com/username/recommentation1",
+                    "label": "Recommendation"
+                }
+            },
+            {
+                "title": "SoftService company",
+                "subtitle": "UI Developer",
+                "date": "dec 2015 - jan 2016",
+                "text": "Collaborate with creative and development teams on the execution of ideas."
+            }
+        ]
+    }
+}
