@@ -1,7 +1,7 @@
 ---
 #preview
 title: Graphic Design 2
-image: https://cdn.dribbble.com/users/9684942/screenshots/17158573/media/477f0b905f4c49ce19a76e7860535a80.jpg?resize=1600x1200&vertical=center
+image: /img/Portfolio-graphicDesign/2.png
 category: Graphic Design
 category_slug: graphic-design
 #portfolio image size for masonry layout: horizontal, vertical, square

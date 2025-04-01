@@ -1,7 +1,7 @@
 ---
 #preview
 title: Graphic Design 3
-image: https://cdn.dribbble.com/userupload/15725072/file/original-db3fc113b87af753d1abef303dec3053.jpg?resize=2048x1536&vertical=center
+image: /img/Portfolio-graphicDesign/3.png
 category: Graphic Design
 category_slug: graphic-design
 #portfolio image size for masonry layout: horizontal, vertical, square

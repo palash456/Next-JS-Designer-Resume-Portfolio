@@ -6,7 +6,7 @@ const PreloaderModule = () => {
             {/* preloader content */}
             <div className="art-preloader-content">
                 {/* title */}
-                <h4>Artur Carter</h4>
+                <h4>Akamsh Mohan</h4>
                 {/* progressbar */}
                 <div id="preloader" className="art-preloader-load"></div>
             </div>

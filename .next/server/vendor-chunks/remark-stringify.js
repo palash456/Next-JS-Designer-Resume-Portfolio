@@ -1,0 +1,25 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "vendor-chunks/remark-stringify";
+exports.ids = ["vendor-chunks/remark-stringify"];
+exports.modules = {
+
+/***/ "(rsc)/./node_modules/remark-stringify/lib/index.js":
+/*!****************************************************!*\
+  !*** ./node_modules/remark-stringify/lib/index.js ***!
+  \****************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ remarkStringify)\n/* harmony export */ });\n/* harmony import */ var mdast_util_to_markdown__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! mdast-util-to-markdown */ \"(rsc)/./node_modules/mdast-util-to-markdown/lib/index.js\");\n/**\n * @typedef {import('mdast').Root|import('mdast').Content} Node\n * @typedef {import('mdast-util-to-markdown').Options} ToMarkdownOptions\n * @typedef {Omit<ToMarkdownOptions, 'extensions'>} Options\n */\n\n\n\n/**\n * @this {import('unified').Processor}\n * @type {import('unified').Plugin<[Options?]|void[], Node, string>}\n */\nfunction remarkStringify(options) {\n  /** @type {import('unified').CompilerFunction<Node, string>} */\n  const compiler = (tree) => {\n    // Assume options.\n    const settings = /** @type {Options} */ (this.data('settings'))\n\n    return (0,mdast_util_to_markdown__WEBPACK_IMPORTED_MODULE_0__.toMarkdown)(\n      tree,\n      Object.assign({}, settings, options, {\n        // Note: this option is not in the readme.\n        // The goal is for it to be set by plugins on `data` instead of being\n        // passed by users.\n        extensions:\n          /** @type {ToMarkdownOptions['extensions']} */ (\n            this.data('toMarkdownExtensions')\n          ) || []\n      })\n    )\n  }\n\n  Object.assign(this, {Compiler: compiler})\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvcmVtYXJrLXN0cmluZ2lmeS9saWIvaW5kZXguanMiLCJtYXBwaW5ncyI6Ijs7Ozs7QUFBQTtBQUNBLGFBQWEsOENBQThDO0FBQzNELGFBQWEsMENBQTBDO0FBQ3ZELGFBQWEsdUNBQXVDO0FBQ3BEOztBQUVpRDs7QUFFakQ7QUFDQSxVQUFVO0FBQ1YsVUFBVTtBQUNWO0FBQ2U7QUFDZixhQUFhLGtEQUFrRDtBQUMvRDtBQUNBO0FBQ0EsZ0NBQWdDLFNBQVM7O0FBRXpDLFdBQVcsa0VBQVU7QUFDckI7QUFDQSxzQkFBc0I7QUFDdEI7QUFDQTtBQUNBO0FBQ0E7QUFDQSxxQkFBcUIsaUNBQWlDO0FBQ3REO0FBQ0E7QUFDQSxPQUFPO0FBQ1A7QUFDQTs7QUFFQSx1QkFBdUIsbUJBQW1CO0FBQzFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vYXJ0ZXItbmV4dGpzLy4vbm9kZV9tb2R1bGVzL3JlbWFyay1zdHJpbmdpZnkvbGliL2luZGV4LmpzPzlkMTMiXSwic291cmNlc0NvbnRlbnQiOlsiLyoqXG4gKiBAdHlwZWRlZiB7aW1wb3J0KCdtZGFzdCcpLlJvb3R8aW1wb3J0KCdtZGFzdCcpLkNvbnRlbnR9IE5vZGVcbiAqIEB0eXBlZGVmIHtpbXBvcnQoJ21kYXN0LXV0aWwtdG8tbWFya2Rvd24nKS5PcHRpb25zfSBUb01hcmtkb3duT3B0aW9uc1xuICogQHR5cGVkZWYge09taXQ8VG9NYXJrZG93bk9wdGlvbnMsICdleHRlbnNpb25zJz59IE9wdGlvbnNcbiAqL1xuXG5pbXBvcnQge3RvTWFya2Rvd259IGZyb20gJ21kYXN0LXV0aWwtdG8tbWFya2Rvd24nXG5cbi8qKlxuICogQHRoaXMge2ltcG9ydCgndW5pZmllZCcpLlByb2Nlc3Nvcn1cbiAqIEB0eXBlIHtpbXBvcnQoJ3VuaWZpZWQnKS5QbHVnaW48W09wdGlvbnM/XXx2b2lkW10sIE5vZGUsIHN0cmluZz59XG4gKi9cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIHJlbWFya1N0cmluZ2lmeShvcHRpb25zKSB7XG4gIC8qKiBAdHlwZSB7aW1wb3J0KCd1bmlmaWVkJykuQ29tcGlsZXJGdW5jdGlvbjxOb2RlLCBzdHJpbmc+fSAqL1xuICBjb25zdCBjb21waWxlciA9ICh0cmVlKSA9PiB7XG4gICAgLy8gQXNzdW1lIG9wdGlvbnMuXG4gICAgY29uc3Qgc2V0dGluZ3MgPSAvKiogQHR5cGUge09wdGlvbnN9ICovICh0aGlzLmRhdGEoJ3NldHRpbmdzJykpXG5cbiAgICByZXR1cm4gdG9NYXJrZG93bihcbiAgICAgIHRyZWUsXG4gICAgICBPYmplY3QuYXNzaWduKHt9LCBzZXR0aW5ncywgb3B0aW9ucywge1xuICAgICAgICAvLyBOb3RlOiB0aGlzIG9wdGlvbiBpcyBub3QgaW4gdGhlIHJlYWRtZS5cbiAgICAgICAgLy8gVGhlIGdvYWwgaXMgZm9yIGl0IHRvIGJlIHNldCBieSBwbHVnaW5zIG9uIGBkYXRhYCBpbnN0ZWFkIG9mIGJlaW5nXG4gICAgICAgIC8vIHBhc3NlZCBieSB1c2Vycy5cbiAgICAgICAgZXh0ZW5zaW9uczpcbiAgICAgICAgICAvKiogQHR5cGUge1RvTWFya2Rvd25PcHRpb25zWydleHRlbnNpb25zJ119ICovIChcbiAgICAgICAgICAgIHRoaXMuZGF0YSgndG9NYXJrZG93bkV4dGVuc2lvbnMnKVxuICAgICAgICAgICkgfHwgW11cbiAgICAgIH0pXG4gICAgKVxuICB9XG5cbiAgT2JqZWN0LmFzc2lnbih0aGlzLCB7Q29tcGlsZXI6IGNvbXBpbGVyfSlcbn1cbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/remark-stringify/lib/index.js\n");
+
+/***/ })
+
+};
+;
