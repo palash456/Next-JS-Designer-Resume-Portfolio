@@ -1,7 +1,7 @@
 ---
 #preview
 title: Motion Design 2
-youtubeId: UOS-koYsywQ
+youtubeId: cORmlHIwkzo
 category: Motion Design
 category_slug: motion-design
 date: may 24 2023

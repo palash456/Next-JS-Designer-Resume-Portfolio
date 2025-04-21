@@ -6,7 +6,7 @@ category: Video Editing
 category_slug: video-editing
 #portfolio image size for masonry layout: horizontal, vertical, square
 masonrySize: horizontal
-youtubeId: UOS-koYsywQ
+youtubeId: beppxRKuUBQ
 
 #full details
 description:

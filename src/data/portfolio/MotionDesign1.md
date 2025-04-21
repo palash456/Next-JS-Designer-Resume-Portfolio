@@ -1,7 +1,7 @@
 ---
 #preview
 title: Motion Design 1
-youtubeId: UOS-koYsywQ
+youtubeId: QwOCjcne0nE
 category: Motion Design
 category_slug: motion-design
 #portfolio image size for masonry layout: horizontal, vertical, square
