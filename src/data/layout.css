@@ -3309,7 +3309,7 @@ content (after 920px)
     flex-direction: column;
   }
   .art-banner .art-banner-overlay .art-banner-title .art-buttons-frame a {
-    max-width: 200px;
+    /* max-width: 200px; */
     margin: 0 auto;
   }
   .art-banner .art-banner-overlay .art-banner-title .art-buttons-frame a:first-child {
