@@ -47,9 +47,17 @@ const HeroOne = () => {
                                 <span dangerouslySetInnerHTML={{__html : Data.subtitle.end}} />
                             </div>
                             <div className="art-buttons-frame">
-                                {/* button */}
-                                <Link href={Data.button.link} className="art-btn art-btn-md"><span>{Data.button.label}</span></Link>
-                            </div>
+  {/* button */}
+  <a
+    href={Data.button.link}
+    className="art-btn art-btn-md"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <span>{Data.button.label}</span>
+  </a>
+</div>
+
                         </div>
                         {/* main title end */}
                         {/* photo */}
