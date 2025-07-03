@@ -1959,7 +1959,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"col1":{"title":"Education","items":[
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"bg_image":"https://img.freepik.com/free-vector/interior-living-room-with-tv-night_107791-2382.jpg","title":"Discover my Amazing <br/>Portfolio!","subtitle":{"start":"I do ","rotates":["Illustration","Video Editing","Graphic Designing"],"end":""},"button":{"link":"https://drive.google.com/file/d/1oYhnKNCUyayJpTBK1Ou8MgRtzwXppy3M/view","label":"Download CV"},"photo":{"url":"img/face-2.png","alt":"Artur Carter"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"bg_image":"https://img.freepik.com/free-vector/interior-living-room-with-tv-night_107791-2382.jpg","title":"Discover my Amazing <br/>Portfolio!","subtitle":{"start":"I do ","rotates":["Illustration","Video Editing","Graphic Designing"],"end":""},"button":{"link":"/img/akamsh%20mohanCV.png","label":"Download CV"},"photo":{"url":"img/profilepicture.png","alt":"Artur Carter"}}');
 
 /***/ })
 
